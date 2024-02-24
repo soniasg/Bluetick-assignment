@@ -1,0 +1,28 @@
+.carousel-item {
+    height: 600px; /* Set the height of carousel items */
+  }
+  
+  .carousel-item img {
+    object-fit: cover; /* Ensure the image covers the entire carousel item */
+    height: 100%; /* Set the height of carousel items */
+    width: 100%; /* Set the width of carousel items */
+  }
+  .carousel-container {
+    position: relative; /* Set position to relative for the container */
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 3;
+  }
+  
+  .carousel-label {
+    position:absolute; /* Set position to absolute */
+    top: 0; /* Position the label at the top of the container */
+    left: 0; /* Position the label at the left of the container */
+    width: 100%; /* Set the width to match the container */
+    height: 100%;
+    text-align: center; /* Center-align the label */
+    background-color: rgba(0, 0, 0, 0.6); /* Set background color with opacity */
+    color: #f3f3f3; /* Set text color */
+    padding: 180px; /* Add padding */
+  }
+  
+ 

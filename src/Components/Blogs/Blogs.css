@@ -1,0 +1,40 @@
+.image-container {
+    position: relative;
+    display: inline-block;
+    
+  }
+  img{
+    height: 300px;
+    border: rgb(229, 227, 227) 5px solid;
+  }
+  .image-text {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 50%; /* Positioning at the vertical center */
+    left: 50%; /* Positioning at the horizontal center */
+    transform: translate(-50%, -50%); /* Move back by half of its own width and height */
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    color: white; /* Text color */
+    padding: 150px; /* Padding around the text */
+    text-align: center;
+    
+  }
+  .card-body{
+    padding:20px;
+  }
+  .explore-more-link {
+    /* Add your styles here */
+    color: #0055ff; /* Blue color for the link */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* text bold */
+    text-align: center;
+  }
+  
+  .explore-more-link:hover {
+    color: #0056b3; /* Darker blue color on hover */
+    text-decoration: underline; /* Underline on hover */
+  }
+  .card-text{
+    text-align: center;
+  }

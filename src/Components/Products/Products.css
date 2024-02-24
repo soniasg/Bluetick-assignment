@@ -1,0 +1,32 @@
+/* Products.css */
+
+#products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .card {
+    width: 100%;
+    max-width: 950px;
+  }
+  
+  .product {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .product-info {
+    flex: 1;
+  }
+  
+  .product-image {
+    flex: 1;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
